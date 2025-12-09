@@ -63,8 +63,7 @@
 
 	--text-gradient: radial-gradient(
 		circle farthest-corner at center center,
-		#58f9ff 0%,
-		#df44e7 100%
+		#58f9ff 100%
 	);
 }
 *{

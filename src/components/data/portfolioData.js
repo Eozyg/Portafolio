@@ -1,5 +1,4 @@
 /**
- * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
  * @typedef PortafolioData
  * @property {string} imgSrc Url de la imagen
  * @property {string} title Titulo de la tarjeta
@@ -12,59 +11,58 @@
  */
 
 /**
- * @SofiDev Esto es JSDOC, si consideras que puede ser complicado solo borralo, es un comentario, no afectará en nada
  * @type {PortafolioData[]}
  */
 export const portafolioData = [
 	{
-		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		imgSrc: 'img/backg.webp',
+		title: 'Blizzland',
+		skills: ['JavaScript', 'CSS', 'Astro'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'Simulé una landing page para Blizzard Entertainment, con un flujo de ingreso de número, y pin de acceso.',
+		demoURL: 'https://eozyg.github.io/blizzland/',
+		repoURL: 'https://github.com/Eozyg/blizzland',
 		anim: 'fade-right',
 	},
 	{
-		imgSrc: 'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/299377097/original/7eb7dcebe244fcf5ad75d92b0969fc116946bd57/create-professional-amd-responsive-wordpress-website.jpg',
-		title: 'E-commerce',
-		skills: ['JavaScript', 'Bootstrap'],
+		imgSrc: 'img/invboda.png',
+		title: 'Invitacion casamiento',
+		skills: ['JavaScript', 'CSS', 'Astro'],
 		descripcion:
-			' Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			' Es una invitación web interactiva una boda, con toda la información del evento, cuenta regresiva, fotos de los novios, links de ubicación y un formulario para confirmar asistencia, pensada para que el invitado tenga todo a mano y se entusiasme con la fiesta.',
+		demoURL: 'https://invitaciondemo.vercel.app/',
+		repoURL: 'https://github.com/Eozyg/Invitacion.demo',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
 	},
 	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
+		imgSrc: 'img/std.png',
+		title: 'Save the date',
+		skills: ['React', 'CSS', 'JavaScript', 'Tailwind', 'Astro'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'Cree un portal para vender invitaciones virtuales, con su respectivo contacto,',
+		demoURL: 'https://buschfranco.github.io/portalinvitacion/',
+		repoURL: 'https://github.com/BuschFranco/portalinvitacion',
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'https://www.corse.mx/cdn/shop/files/tienda_lenceria-lenceria-hot_sale-ofertas-mexico-lenceria_seyx-encaje-corse_mx-corse_lenceria_1200_x_560_px_13.png?v=1712270274&width=1500',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
+		imgSrc: 'img/babyshower.png',
+		title: 'Invitacion babyshower',
+		skills: ['JavaScript', 'CSS', 'Astro'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'Invitación a un cumpleaños de 1 año en Adrogué, con cuenta regresiva, galería de fotos y formulario para confirmar asistencia.',
+		demoURL: 'https://buschfranco.github.io/Invitacion/',
+		repoURL: 'https://github.com/BuschFranco/Invitacion',
 		anim: 'fade-left',
 	},
 	{
 		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
-		title: 'Coffe Store',
-		skills: ['React', 'CSS'],
+		title: 'Carta para restaurante',
+		skills: ['Astro', 'CSS', 'JavaScript'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'Carta para un restaurante, con menú, carrito de compras y contacto.',
+		demoURL: 'https://templates-bf.vercel.app/',
+		repoURL: 'https://github.com/BuschFranco/TemplatesBF/tree/main/Templates',
 		anim: 'fade-left',
 	},
 	{
