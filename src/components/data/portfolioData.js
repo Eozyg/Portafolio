@@ -38,7 +38,7 @@ export const portafolioData = [
 	{
 		imgSrc: 'img/std.png',
 		title: 'Save the date',
-		skills: ['React', 'CSS', 'JavaScript', 'Tailwind', 'Astro'],
+		skills: ['CSS', 'JavaScript', 'Tailwind', 'Astro'],
 		descripcion:
 			'Cree un portal para vender invitaciones virtuales, con su respectivo contacto,',
 		demoURL: 'https://buschfranco.github.io/portalinvitacion/',
@@ -51,18 +51,18 @@ export const portafolioData = [
 		skills: ['JavaScript', 'CSS', 'Astro'],
 		descripcion:
 			'Invitación a un cumpleaños de 1 año en Adrogué, con cuenta regresiva, galería de fotos y formulario para confirmar asistencia.',
-		demoURL: 'https://buschfranco.github.io/Invitacion/',
-		repoURL: 'https://github.com/BuschFranco/Invitacion',
+		demoURL: 'https://eozyg.github.io/Carta-ZOAN/',
+		repoURL: 'https://github.com/Eozyg/Carta-ZOAN',
 		anim: 'fade-left',
 	},
 	{
-		imgSrc: 'https://i0.wp.com/themes.svn.wordpress.org/cafe-cafeteria/1.5.3/screenshot.png',
+		imgSrc: 'img/ZOAN.png',
 		title: 'Carta para restaurante',
 		skills: ['Astro', 'CSS', 'JavaScript'],
 		descripcion:
 			'Carta para un restaurante, con menú, carrito de compras y contacto.',
-		demoURL: 'https://templates-bf.vercel.app/',
-		repoURL: 'https://github.com/BuschFranco/TemplatesBF/tree/main/Templates',
+		demoURL: 'https://eozyg.github.io/Carta-ZOAN/',
+		repoURL: 'https://github.com/Eozyg/Carta-ZOAN/',
 		anim: 'fade-left',
 	},
 	{
