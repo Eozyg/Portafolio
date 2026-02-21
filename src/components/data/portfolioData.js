@@ -57,7 +57,7 @@ export const portafolioData = [
 	},
 	{
 		imgSrc: 'img/ZOAN.png',
-		title: 'Carta para restaurante',
+		title: 'Carta ZOAN',
 		skills: ['Astro', 'CSS', 'JavaScript'],
 		descripcion:
 			'Carta para un restaurante, con menú, carrito de compras y contacto.',
@@ -67,12 +67,12 @@ export const portafolioData = [
 	},
 	{
 		imgSrc: 'https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2021/06/copy-of-the-6-best-restaurant-website-templates-1.png',
-		title: 'Restaurant',
-		skills: ['React', 'StyledComponents'],
+		title: 'App Weather',
+		skills: ['React', 'Astro' , 'TypeScript'],
 		descripcion:
-			'Laboris ex laboris mollit esse fugiat aute cillum nostrud enim dolor sit. Reprehenderit et non nulla irure aute nostrud commodo aute.',
-		demoURL: '',
-		repoURL: '',
+			'es una single-page-like app montada sobre Astro + React + TypeScript, que consume una API de clima moderna (Open-Meteo), hace geocodificación inteligente para provincias y ciudades argentinas y presenta la info en una UI minimalista, responsive y bien pensada para leer el clima de un vistazo.',
+		demoURL: 'https://eozyg.github.io/App-Weather/',
+		repoURL: 'https://github.com/Eozyg/App-Weather',
 		anim: 'fade-right',
 	}
 ];
